@@ -1,0 +1,132 @@
+/* - Setup - */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body, html {
+    width: 100%;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+/* - Styled - */
+.container {
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    background: #FFFFFF;
+    padding: 32px 36px 32px 36px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+body {
+    background-color: #FAFAFB;
+}
+.button {
+    background: #2F80ED;
+    border-radius: 8px;
+    padding: 8px 16px 8px 16px;
+
+    color: #FFFFFF;
+    font-size: 12px;
+    line-height: 16px;
+    cursor: pointer;
+    transition: 0.1s ease-in-out;
+    user-select: none;
+    font-family: 'Noto Sans', sans-serif;
+    white-space: nowrap;
+}
+.button:hover {
+    background: #468be6;   
+    transition: 0.1s ease-in-out;
+}
+.button:active {
+    background: #5c97e3;   
+    transition: 0.1s ease-in-out;
+}
+
+.textoutput-container {
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    background: #F6F8FB;
+    border-radius: 8px;
+    padding: 2px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: fit-content;
+}
+
+.textoutput-display {
+    color: #4F4F4F;
+    font-size: 12px;
+    padding: 7px;
+    width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    height: 100%;
+    flex-direction: row;
+
+    border: none;
+    background-color: #00000000;
+    caret-color: transparent;
+    cursor: default;
+}
+.textoutput-display:focus {
+    outline: none;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+    text-align: center;
+    color: #A9A9A9;
+    font-size: 14px;
+}
+
+.dropzone {
+    width: fit-content;
+    background: #F6F8FB;
+    border: 1px dashed #97BEF4;
+    padding: 40px 80px 40px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    border-radius: 12px;
+}
+
+.text-desc {
+    font-size: 12px;
+    line-height: 18px;
+    color: #BDBDBD;
+}
+
+.progressbar {
+    background: #F2F2F2;
+    border-radius: 8px;
+    height: 6px;
+    width: 340px;
+}
+.progressbar-filler {
+    background: #2F80ED;
+    border-radius: 8px;
+    height: 6px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.preview {
+    width: 338px;
+    height: 225px;
+    border-radius: 12px;
+}
